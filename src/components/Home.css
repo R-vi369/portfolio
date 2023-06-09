@@ -1,0 +1,94 @@
+/* .body{
+    display: flex;
+    padding-left: 3rem;
+    width: 100%;
+    height: 80vh;
+   background-color: rgb(255, 251, 251);
+   
+    
+}
+.left{
+    display: flex;
+    width: 50%;
+    height: 80vh;
+    margin: 3rem;
+    padding: 0.1rem;
+}
+
+h2{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    
+
+}
+.moving{
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: purple;
+    font-weight: bolder;
+}
+.right{
+    margin-top: 3rem;
+     font-size: 3rem;
+} */
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 37%;
+    font-size: 1.3rem;
+    padding-right:1rem ;
+    z-index: 999;
+}
+.github{
+    color: whitesmoke;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin{
+    
+    color: whitesmoke;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.github:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 241, 241);
+    font-size: 1.5rem;
+    
+}
+.linkedin:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 241, 241);
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+/* navbar */
+
+
+ul li{
+   
+border: none;
+outline: none;
+}
+
+ul li:hover{
+    color: rgb(1, 255, 77);
+    border-bottom: 0.3rem solid rgb(231, 231, 231) ;
+
+}
+
+
