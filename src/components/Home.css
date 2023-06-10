@@ -33,6 +33,16 @@ h2{
      font-size: 3rem;
 } */
 
+#bg-image{
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), url("https://images-cdn.newscred.com/Zz04NjA3ZjljMjQ0ODkxMWViOWRjYzU1OGJkNjI1ZjVkZA==");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+
+}
+
+
+
 .icons{
     display: flex;
     flex-direction: column;
