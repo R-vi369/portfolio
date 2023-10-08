@@ -1,12 +1,26 @@
-import Header from './compontents/Header/Header'
-import Portfolio from './compontents/Portfolio/Portfolio'
-
+import React, { useState, useEffect } from 'react';
+import Header from './Components/Header'
+import Profile from './Components/Profile'
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    
+    setTimeout(() => {
+      setLoading(false); 
+    }, 2334000); 
+  }, []);
+
   return (
     <>
-    <Portfolio/>
-  <Header/>
-
+     <div className="App">
+      {loading ? (
+        <Profile/>
+      ) : (
+       
+      <Header/>
+      )}
+    </div>
 
     </>
   )
