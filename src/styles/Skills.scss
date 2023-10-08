@@ -1,0 +1,14 @@
+.skills{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    .img_size{
+        
+        img{
+            background-color: white;
+            width: 140px;
+        }
+    }
+}

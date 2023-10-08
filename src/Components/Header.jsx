@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Header.scss'
 import { Link } from 'react-router-dom'
-import { AiOutlineHome } from 'react-icons/ai'
+import { AiOutlineHome ,AiOutlineBulb} from 'react-icons/ai'
 import {VscTools} from 'react-icons/vsc'
 const Header = () => {
   return (
@@ -17,8 +17,8 @@ const Header = () => {
         <Link to='/skills'  className='link'>
           <VscTools />
         </Link>
-        <Link to='/Home' className='link'>
-          <AiOutlineHome />
+        <Link to='/Projects' className='link'>
+          <AiOutlineBulb/>
         </Link>
         <Link to='/Home' className='link'>
           <AiOutlineHome />
