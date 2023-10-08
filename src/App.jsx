@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Header from './Components/Header'
 import Profile from './Components/Profile'
+import Wrapper from './Components/Wrapper';
 const App = () => {
   const [loading, setLoading] = useState(true);
 
@@ -8,7 +8,7 @@ const App = () => {
     
     setTimeout(() => {
       setLoading(false); 
-    }, 2334000); 
+    }, 100); 
   }, []);
 
   return (
@@ -18,7 +18,7 @@ const App = () => {
         <Profile/>
       ) : (
        
-      <Header/>
+      <Wrapper/>
       )}
     </div>
 
