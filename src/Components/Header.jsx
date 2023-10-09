@@ -11,7 +11,7 @@ const Header = () => {
     <>
 
       <div className="header">
-        <Link  to='/Home' className='link'>
+        <Link  to='/Home' className='link' >
           <AiOutlineHome />
         </Link>
         <Link to='/about' className='link'>

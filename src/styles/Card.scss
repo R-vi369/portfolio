@@ -1,0 +1,16 @@
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .card_box{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     width: 100%;
+     height: 60vh;
+     border: 1px solid black;
+
+    }
+}
