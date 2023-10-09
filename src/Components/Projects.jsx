@@ -1,27 +1,9 @@
-import '../styles/Projects.scss'
-import React from 'react';
+import React from 'react'
 
-import Card from './Card';
-
-function Projects() {
+const Projects = () => {
   return (
-    <div className="project">
-      <Card
-        img =''
-        name ="Conntects"
-        text = "Connects is a social app"
-        link = "http://github/R-vi369"
-      />
-
-<Card
-        img =''
-        name ="Conntects"
-        text = "Connects is a social app"
-        link = "http://github/R-vi369"
-      />
-      
-    </div>
-  );
+    <div>Projects</div>
+  )
 }
 
-export default Projects;
+export default Projects

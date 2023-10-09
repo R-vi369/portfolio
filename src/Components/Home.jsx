@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Home.scss'
 import profile_img from '../assets/profile_pic.png'
 import { TypeAnimation } from 'react-type-animation';
+import Home2 from './Home2.jsx'
 const Home = () => {
 
   return (
@@ -36,6 +37,7 @@ const Home = () => {
 
 
       </div>
+      <Home2/>
     </>
   )
 }
