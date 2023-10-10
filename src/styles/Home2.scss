@@ -1,6 +1,33 @@
 .home2{
     width: 100%;
     height: 100vh;
-    // background-color: green;
-    color: white;
+    background-color: rgb(246, 246, 246);
+    color: rgb(5, 4, 4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .home2_left{
+        img{
+            width: 400px;
+        }
+
+        
+    }
+    .home2_right{
+        h1{
+            font-size: 3rem;
+            margin-bottom: 4rem;
+        }
+        p{
+            padding: 1rem;
+            font-size: 1.2rem;
+            span{
+                font-size: 1.7rem;
+                font-weight: 800;
+            }
+        }
+    }
 }

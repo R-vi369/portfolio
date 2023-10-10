@@ -6,14 +6,20 @@
  align-items: center;
  justify-content: center;
  gap: 3rem;
- color: rgb(166, 166, 150);
+ position: fixed;
+//  color: rgb(55, 55, 48);
+ background-color: rgb(255, 251, 251);
  .link{
     color: rgb(149, 145, 145);
     font-size: 1.8rem;
+   
 
     &:hover{
-        color: rgb(255, 251, 251);
+        color: rgb(11, 11, 11);
         border-bottom: 2px solid rgb(142, 159, 13);
     }
  }
+ .active{
+    color: black;
+}
 }
