@@ -20,6 +20,17 @@
         h1{
             font-size: 3rem;
             margin-bottom: 4rem;
+            span{
+                background-color: black;
+                color: white;
+                padding: 1rem;
+                cursor: pointer;
+                &:hover{
+                    background-color: white;
+                    border: 1px solid black;
+                    color: black;
+                }
+            }
         }
         p{
             padding: 1rem;
@@ -27,6 +38,8 @@
             span{
                 font-size: 1.7rem;
                 font-weight: 800;
+                padding: 0.4rem;
+                cursor: pointer;
             }
         }
     }

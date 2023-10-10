@@ -10,7 +10,7 @@ const footer = () => {
             <div className="footer">
                 <div className="footer_left">
 
-                    <h1>Presented by Ravi</h1>
+                    <h1>Designed and Developed  by Ravi</h1>
                 </div>
                 <div className="footer_mid">
                     <a href="https://github.com/R-vi369" target='_blank'>
@@ -22,7 +22,7 @@ const footer = () => {
                  
                  <p>Copy rights</p>
                  <AiOutlineCopyrightCircle/>
-
+                        <p>2023</p>
                 </div>
 
             </div>

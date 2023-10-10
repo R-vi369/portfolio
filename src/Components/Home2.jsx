@@ -15,12 +15,12 @@ const Home2 = () => {
                 <div className="home2_right">
 
 
-                    <h1>Let me introduce myself</h1>
+                    <h1>Let me introduce <span>myself</span></h1>
 
                     <p>I fell in love with JavaScript when I discovered that it keeps its promises and never tells lies.</p>
 
-                    <p> I am good in classics like Javascript and C++</p>
-                    <p> My field of interest's are building  <span>Web Applications</span> </p>
+                    <p> I am good in classics like <span>Javascript</span> and <span>C++</span></p>
+                    <p> My field of interest's are building  <span>Web Applications</span> with React </p>
 
 
                 </div>

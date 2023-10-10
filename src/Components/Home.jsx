@@ -14,6 +14,7 @@ const Home = () => {
         <h3>Hola, I'm</h3>
               <h1>Ravi</h1>
               <p>A passionate web developer | currently leanring Backend developement | front end developer | </p>
+             
         </div>
           
           <div className="home_img">
