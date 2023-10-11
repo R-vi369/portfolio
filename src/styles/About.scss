@@ -47,3 +47,22 @@
         }
     }
 }
+
+@media (max-width: 786px) {
+    .about{
+        flex-direction: column;
+    }
+    .about_img{
+        img{
+            width: 200px;
+        }
+    }
+    .about_intro{
+        p{
+
+            padding: 1rem;
+            font-size: 1rem;
+        }
+
+    }
+}
