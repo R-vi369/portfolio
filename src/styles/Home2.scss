@@ -44,3 +44,23 @@
         }
     }
 }
+
+@media (max-width: 786px) {
+    .home2{
+        .home2_left{
+            display: none;
+        }
+        .home2_right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h1{
+                font-size: 1rem;
+            
+               
+            }
+           
+        }
+    }
+}

@@ -18,6 +18,9 @@
             color: black;
             padding: 1rem;
             font-size: 1.3rem;
+            &:hover{
+                font-size: 1.4rem;
+            }
             
         }
     }
@@ -27,4 +30,12 @@
         align-items: center;
         gap: 0.4rem;
     }
+}
+
+@media (max-width: 786px) {
+
+    .footer{
+        flex-direction: column;
+    }
+    
 }
