@@ -23,3 +23,12 @@
     color: black;
 }
 }
+
+@media (max-width: 786px) {
+    .header{
+        gap: 1.5rem;
+        .link{
+            // font-size: 1.5rem;
+        }
+    }
+}

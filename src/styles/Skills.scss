@@ -1,14 +1,37 @@
 .skills{
-    height: 80vh;
+    width: 100%;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    .img_size{
-        
-        img{
-            background-color: white;
-            width: 140px;
+    gap: 3rem;
+    
+    .skillsD1, .skillsD2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+       flex-wrap: wrap;
+        .box{
+            width: 10%;
+            border: none;
+            box-shadow: 2px 2px 2px grey;
+            border: 1px solid black;
+            height: 20vh;
+            cursor: pointer;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 100px;
+                &:hover{
+                    width: 120px;
+                   }
+            }
         }
     }
+   
 }
