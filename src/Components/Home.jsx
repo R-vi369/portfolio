@@ -4,6 +4,7 @@ import Home2 from './Home2'
 import pro_img from '../assets/profile.png'
 import  Footer from './Footer'
 import Typed from 'typed.js';
+import banner from '../assets/banner.png'
 
 
 const Home = () => {
@@ -15,8 +16,7 @@ const Home = () => {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ['A passionate web developer', 'front end developer.', 'currently leanring Backend developement.'],
-      typeSpeed: 150,
-   
+      typeSpeed: 100,
       loop: true,
     });
 
@@ -41,6 +41,7 @@ const Home = () => {
           </div>
       </div>
       <Home2/>
+      <img src={banner} alt="" />
       <Footer/>
 
     </>
