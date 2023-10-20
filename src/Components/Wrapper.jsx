@@ -12,7 +12,6 @@ const Wrapper = () => {
     <>
       <Router>
         <Header/>
-      
         <Routes>
        <Route  path='/' element={<Home/>} />
        <Route  path='/home' element={<Home/>} />
@@ -21,10 +20,7 @@ const Wrapper = () => {
        <Route  path='/projects' element={<Projects/>} />
        <Route  path='/contact' element={<Contact/>} />
         </Routes>
-
-    </Router>
-
-      
+    </Router> 
     </>
   )
 }

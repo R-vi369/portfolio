@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Home2.scss'
 import profile2 from '../assets/profile2.jpg'
+import {Link} from 'react-router-dom'
 const Home2 = () => {
     return (
         <>
@@ -19,8 +20,8 @@ const Home2 = () => {
 
                     <p>I fell in love with JavaScript when I discovered that it keeps its promises and never tells lies.</p>
 
-                    <p> I am good in classics like <span>Javascript</span> and <span>C++</span></p>
-                    <p> My field of interest's are building  <span>Web Applications</span> with React </p>
+                    <p> I excel in classic programming languages such as <span>Javascript</span> and <span>Python</span></p>
+                    <p> My field of interest's are building  <Link className='wa' to='/projects'>Web Applications</Link> and i also like data science </p>
 
 
                 </div>
