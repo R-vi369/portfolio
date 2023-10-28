@@ -1,4 +1,7 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+
 .loader {
     display: flex;
     flex-direction: column;
@@ -8,19 +11,23 @@
     height: 100vh;
     width: 100%;
     height: 100vh;
-   background: url('../assets/welcome.jpg');
+   background: url('../assets/welcometomyprofile.jpg');
    background-repeat: no-repeat;
-   background-size: cover;
+  //  background-size: cover;
+   background-attachment: fixed;
    width: 100%;
-   filter: blur(1);
+
    
     color: white;
 
    .profile_welcome{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 900;
+    font-family: 'Nosifer', sans-serif ;
+   
     span{
         color: #bdc319;
+        font-family: 'Nosifer', sans-serif;
     }
    }
     .spinner {
@@ -42,3 +49,10 @@
     }
   }
   
+  @media screen and (max-width:786px)  {
+     .loader{
+      .profile_welcome{
+        font-size: 1.1rem;
+      }
+     }
+  }

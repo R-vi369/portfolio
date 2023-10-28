@@ -1,20 +1,18 @@
 import React from 'react'
-import '../styles/Home.scss'
-import Home2 from './Home2'
-import  Footer from './Footer'
+import "../styles/Home.scss"
+import dp from '../assets/dp.jpg'
 import Typed from 'typed.js';
 
-const Home = () => {
-  const el = React.useRef(null);
 
+const Home = () => {
+  const el = React.useRef(null)
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Frontend developer', 'Learning Backend', 'Interest in Data sci'],
+      strings: ['Frontend developer.', 'React.js', 'Learning Backend', 'Interested in Data science'],
       typeSpeed: 150,
-
-      loop: true,
+      backSpeed: 50,
+      loop: true
     });
-
     return () => {
       // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
@@ -23,24 +21,32 @@ const Home = () => {
   return (
     <>
       <div className="home">
-        <div className="home_left">
-        <h3>Hola, I'm</h3>
-              <h1>Ravi</h1>
-             
+        <div className="homeLeft">
+          <div className="homeText">
+            <h2 >Hello <span>Everyone</span></h2>
+            <h3>I <span>am</span></h3>
+            <h1>Rav<span>i</span></h1>
+          </div>
+          <div className="homeInfo">
+          <span ref={el} />
+          </div>
+          <div className="homeCv">
+            Download CV
+          </div>
+
         </div>
-        
-          <p><span ref={el} /></p>
-         
+
+        <div className="homeRight">
+          <img src={dp} alt="" />
+          
+        </div>
+
       </div>
-      <Home2/>
-     
-      <Footer/>
+
+
 
     </>
   )
 }
 
 export default Home
-
-
-
