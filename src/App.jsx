@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Profile from './Components/Profile'
+import  Profile from './Components/Profile'
 import Wrapper from './Components/Wrapper';
 const App = () => {
   const [loading, setLoading] = useState(true);
