@@ -6,19 +6,75 @@
     }
     width: 90%;
    min-height: 100vh;
-   .project{
-        cursor: pointer;
-        background-color: red;
-        padding: 3rem;
-        img{
-            display: none;
-         
-        }
+   flex-direction: column;
+   display: flex;
+   a{
+    width: 100%;
+       cursor: pointer;
+       padding: 3rem;
+       color: black;
+       text-decoration: none;
+      
         &:hover{
+
             border: 2px solid black;
-            
+        }
+      }
+
+       .p1{
+           &:hover{
+               background: url('../assets/githubBG.png');
+               background-size: contain;
+               background-repeat: no-repeat;
+               background-position:right;
+               transition: all 1s;
+            }
+
 
         }
+        .p2{
+            &:hover{
+                background: url('../assets/githubBG.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position:right;
+                transition: all 1s;
+             }
+ 
+ 
+         }
+         .p3{
+            &:hover{
+                background: url('../assets/githubBG.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position:right;
+                transition: all 1s;
+             }
+ 
+ 
+         }
+         .p4{
+            &:hover{
+                background: url('../assets/githubBG.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position:right;
+                transition: all 1s;
+             }
+ 
+ 
+         }
+         .p5{
+            &:hover{
+                background: url('../assets/githubBG.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position:right;
+                transition: all 1s;
+             }
+ 
+ 
+         }
     }
 
-}

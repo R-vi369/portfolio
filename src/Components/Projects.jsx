@@ -1,34 +1,36 @@
-
+import React from 'react'
 import '../styles/Projects.scss'
-import img from '../assets/banner.png'
 const Projects = () => {
-
-
+  return (
+    
     <>
     <div className="projects">
       <h1>projects</h1>
-      <div className="project p1" >
-        Social media clone
-        <img src={img} alt="" />
-      </div>
-      <div className="project p2">
+      <a  href=''  className="project p1">
         Zudio clone
-      </div>
-      <div className="project p3">
-        Mba chai wala
-      </div>
-      <div className="project p1">
-        Social media clone
-      </div>
-      <div className="project p2">
-        Zudio clone
-      </div>
-      <div className="project p3">
-        Mba chai wala
-      </div>
+      </a>
+
+      <a  href='https://github.com/R-vi369/conntects'  className="project p2">
+       Connects- The Social App
+      </a>
+
+      <a href='https://movies95.netlify.app/' target='blank' className="project p3" >
+       Movie verse
+        
+      </a>
+     
+     <a href="https://epfo.netlify.app/" target='blank' className='project p4'>
+       EPFO Clone
+     </a>
+    
+      <a  href='https://mba-chai.netlify.app/'  target='blank' className="project p5">
+        MBA Chai wala
+      </a>
+      
     </div>
     </>
-  
+
+  )
 }
 
 export default Projects

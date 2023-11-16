@@ -2,6 +2,7 @@ import React from 'react'
 import "../styles/Home.scss"
 import Typed from 'typed.js';
 import About from './About'
+import Skills from './Skills'
 import Projects from './Projects'
 import Footer from './Footer'
 
@@ -31,7 +32,9 @@ const Home = () => {
           </div>
         </div>
         <About />
+        <Skills/>
         <Projects/>
+      
         <Footer />
 
       </div>
