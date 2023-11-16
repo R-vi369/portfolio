@@ -2,12 +2,14 @@ import React from 'react'
 import '../styles/Footer.scss'
 import { AiOutlineCopyrightCircle } from 'react-icons/ai'
 
+
 const footer = () => {
     
     return (
         <>
 
 <div className="socialHere">
+    
                 <div className="footer_social_media">
                     <div className="linkedin">
                         <a href="https://www.linkedin.com/in/ravi-1426a4238/" target='_blank'>
@@ -29,6 +31,7 @@ const footer = () => {
 
 
              <div className="footer">
+              
                 <div className="footer_left">
 
                     <h1>Designed and Developed  by Ravi</h1>

@@ -1,29 +1,27 @@
 import React from 'react'
 import '../styles/About.scss'
+import dp from '../assets/dp.jpg';
+
 const About = () => {
+
+
   return (
     <>
+      <p className='aboutMe'>About me</p>
       <div className="about">
 
         <div className="about_img">
-
-
-        <img src="https://png.pngtree.com/png-clipart/20230609/original/pngtree-teen-boy-with-glasses-coloring-page-outline-sketch-drawing-vector-png-image_9183611.png" alt="" />
+          <img src={dp} alt="" />
         </div>
         <div className="about_intro">
+          <p>Hi there </p>
+          <h2>
+            I'm Ravi, an enthusiastic Front-End Developer skilled in transforming concepts into visually striking and smoothly operational digital landscapes. </h2>
 
-
-        <p>
-
-        My journey in web development began with a fascination for creating visually appealing and user-friendly websites. I'm driven by the constant evolution of web technologies and the opportunity to craft innovative solutions that captivate users and provide seamless functionality.
-
-
-        </p>
-         <a href="https://github.com/R-vi369"  className='about_github' target='blank'>Github</a>
         </div>
 
-
       </div>
+     
     </>
   )
 }

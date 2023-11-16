@@ -8,7 +8,7 @@ const Header = () => {
 
       <div className="user">Ravi</div>
       <div className="github">
-       <a href="">
+       <a href="https://github.com/R-vi369/portfolio">
        <AiFillGithub/>
        </a>
       </div>
