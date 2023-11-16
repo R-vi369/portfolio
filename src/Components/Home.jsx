@@ -2,7 +2,12 @@ import React from 'react'
 import "../styles/Home.scss"
 import dp from '../assets/dp.jpg'
 import Typed from 'typed.js';
+import Footer from './Footer'
 
+// Shery.imageEffect('.dp',{
+//   style:5,
+//   debug:true,
+// })
 
 const Home = () => {
   const el = React.useRef(null)
@@ -37,13 +42,13 @@ const Home = () => {
         </div>
 
         <div className="homeRight">
-          <img src={dp} alt="" />
+          <img  className='dp' src={dp} alt="" />
           
         </div>
 
       </div>
 
-
+  <Footer/>
 
     </>
   )
