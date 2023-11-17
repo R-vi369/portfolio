@@ -1,0 +1,32 @@
+.popup{
+    position: relative;
+    bottom: 13rem;
+    left: 3rem;
+    width: 30%;
+    border-radius: 2rem;
+    background-color: rgb(214, 209, 209);
+    height: 30vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .closeIcon{
+        width: 100%;
+      
+        padding-right: 1rem;
+        text-align: end;
+        height: 5vh;
+        cursor: pointer;
+        
+    }
+    .cookie{
+        height: 20vh;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.7rem;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 1rem;
+
+    }
+}

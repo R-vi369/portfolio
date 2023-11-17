@@ -1,11 +1,7 @@
 import React from 'react'
 import "../styles/Home.scss"
 import Typed from 'typed.js';
-import About from './About'
-import Skills from './Skills'
-import Projects from './Projects'
-import Footer from './Footer'
-
+import Popup from './Popup'
 const Home = () => {
   const el = React.useRef(null)
   React.useEffect(() => {
@@ -31,13 +27,10 @@ const Home = () => {
             <span ref={el} className='textMove' />
           </div>
         </div>
-        <About />
-        <Skills/>
-        <Projects/>
-      
-        <Footer />
+        
 
       </div>
+      <Popup/>
     </>
   )
 }
