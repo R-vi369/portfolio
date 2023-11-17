@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/Home.scss"
 import Typed from 'typed.js';
-import Popup from './Popup'
+// import Popup from './Popup'
 const Home = () => {
   const el = React.useRef(null)
   React.useEffect(() => {
@@ -30,7 +30,7 @@ const Home = () => {
         
 
       </div>
-      <Popup/>
+      {/* <Popup/> */}
     </>
   )
 }

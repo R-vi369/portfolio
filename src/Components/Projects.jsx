@@ -5,12 +5,12 @@ const Projects = () => {
     
     <>
     <div className="projects">
-      <h1>projects</h1>
+      
       <a  href=''  className="project p1">
         Zudio clone
       </a>
 
-      <a  href='https://github.com/R-vi369/conntects'  className="project p2">
+      <a  href='https://github.com/R-vi369/conntects' target='blank' className="project p2">
        Connects- The Social App
       </a>
 

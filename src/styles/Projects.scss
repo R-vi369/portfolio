@@ -1,41 +1,42 @@
 .projects{
-    h1{
-        margin: 2rem;
-        padding-left: 7rem;
-        font-size: 1rem;
-    }
+   
     width: 90%;
    min-height: 100vh;
    flex-direction: column;
    display: flex;
-   background-color: aqua;
+//    background-color: aqua;
+.project{
+    text-align: end;
+}
    a{
     width: 100%;
        cursor: pointer;
        padding: 3rem;
-       color: black;
+       color: rgb(182, 171, 171);
        text-decoration: none;
       
         &:hover{
 
             border: 2px solid black;
+            color: transparent;
         }
       }
 
        .p1{
            &:hover{
-               background: url('../assets/githubBG.png');
+               background: url('../assets/socialBG.png');
                background-size: contain;
                background-repeat: no-repeat;
                background-position:right;
                transition: all 1s;
+               
             }
 
 
         }
         .p2{
             &:hover{
-                background: url('../assets/githubBG.png');
+                background: url('../assets/socialBG.png');
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position:right;
@@ -46,7 +47,7 @@
          }
          .p3{
             &:hover{
-                background: url('../assets/githubBG.png');
+                background: url('../assets/movieBG.png');
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position:right;
@@ -57,7 +58,7 @@
          }
          .p4{
             &:hover{
-                background: url('../assets/githubBG.png');
+                background: url('../assets/epfoBG.png');
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position:right;
@@ -68,7 +69,7 @@
          }
          .p5{
             &:hover{
-                background: url('../assets/githubBG.png');
+                background: url('../assets/chaiwalaBG.png');
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position:right;
