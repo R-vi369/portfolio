@@ -7,6 +7,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  // background-color: green;
+  
 
 
     .about_img {
@@ -60,19 +62,28 @@
   
 }
 
-@media (max-width: 786px) {
+@media (max-width: '786px') {
   .about {
     flex-direction: column;
-  }
-  .about_img {
-    img {
-      width: 200px;
+ overflow: hidden;
+ .about_img {
+   img {
+     width: 90%;
+   }
+ }
+ .about_intro {
+  width: 100%;
+   p {
+     padding: 1rem;
+     font-size: 1rem;
     }
-  }
-  .about_intro {
-    p {
-      padding: 1rem;
-      font-size: 1rem;
-    }
+    h2{
+    
+    font-size: 1rem;
+    text-align: start;
+   
+   
+   }
+ }
   }
 }

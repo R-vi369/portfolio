@@ -79,6 +79,12 @@
 @media (max-width: 786px) {
   .footer {
     flex-direction: column;
+    .footer_left{
+      h1{
+
+        font-size: 0.6rem;
+      }
+    }
   }
   .socialHere {
     .footer_social_media {
@@ -87,10 +93,10 @@
       gap: 3rem;
       padding-top: 1rem;
       .linkedin a {
-        font-size: 3rem;
+        font-size: 1.5rem;
       }
       .github a {
-        font-size: 3rem;
+        font-size: 1.5rem;
       }
     }
   }
